@@ -39,7 +39,7 @@ app.post('/add-product', validateProductData, (req, res) => {
   });
 
 
-  app.listen(8000, () => {
+  app.listen(3000, () => {
     console.log("Serveur démarré sur le port 8000");
   });
   

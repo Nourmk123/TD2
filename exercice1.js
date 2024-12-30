@@ -19,8 +19,8 @@ app.get('/exercice1', (req, res) =>{
     res.send("une deuxieme API");
 });
 
-app.listen(8000, () =>{
-   console.log("serveur demarré sur le port 8000");
+app.listen(3000, () =>{
+   console.log("serveur demarré sur le port 3000");
    
 });
   
